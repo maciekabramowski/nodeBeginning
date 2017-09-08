@@ -1,9 +1,13 @@
-function printAvatar(){
-    console.log("Avatar: PG-13");
-}
+module.exports = {
 
-function printChappie(){
-    console.log("Chappie: R");
-}
+    printAvatar: function(){
+        console.log('Avatar');
+    },
+    printChappie: function(){
+        console.log("chappie");
+    },
+    favMovie: "the Matrix"
 
-module.exports.avatar = printAvatar;
+
+};
+
